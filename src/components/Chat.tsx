@@ -7,7 +7,6 @@ import {
   serverTimestamp,
   onSnapshot,
   query,
-  where,
   orderBy,
 } from "firebase/firestore";
 import { auth, db } from "@/firebase-config";
